@@ -1,4 +1,4 @@
-FROM tsamaya/postgis
+FROM tsamaya/docker-postgis
 
 RUN mkdir -p /docker-entrypoint-initdb.d
 
